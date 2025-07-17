@@ -1,3 +1,4 @@
+/* reset */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -62,7 +63,7 @@ address {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  
+
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -70,6 +71,7 @@ address {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 .header-nav {
     display: flex;
@@ -97,6 +99,7 @@ address {
 .contacts-list {
     display: flex;
     gap: 40px;
+    align-items: center;
 
 }
 
