@@ -23,7 +23,13 @@ a {
     color: currentColor;
 
 }
-h1,h2,h3,h4,h5,h6 p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 button {
@@ -43,6 +49,11 @@ address {
     margin-left: auto;
     margin-right: auto;
 }
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -59,7 +70,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin: 76px;
+    margin: 24px 0;
 
 }
 .header-logo .logo-part {
