@@ -67,7 +67,7 @@ address {
 }
 .page-header {
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
+    padding: 0 15px;
 }
 .page-header .container {
     display: flex;
@@ -79,6 +79,7 @@ address {
     display: flex;
     align-items: center;
     gap: 76px;
+    padding: 24px 0;
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
