@@ -41,7 +41,6 @@ button {
 address {
     font-size: normal;
 }
-
 .container {
     width: 100%;
     max-width: 1158px;
@@ -68,7 +67,6 @@ address {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
 .page-header {
     border-bottom: 1px solid #e7e9fc;
     padding: 24px 0;
@@ -77,6 +75,7 @@ address {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 0;
   }
 .header-nav {
     display: flex;
@@ -91,6 +90,8 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 24px 0;  
+    margin-right: 76px; 
 
 }
 .header-logo .logo-part {
@@ -118,7 +119,6 @@ address {
 .contacts-link:focus {
     color: #404bbf;
 }
-
 .contacts {
     font-style: normal;
 }
@@ -137,33 +137,37 @@ address {
 .hero-section {
     background-color: #2e2f42;
     text-align: center;
+    padding: 188px 0;
 }
 .main-title {
     font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    max-width: 496px;
+    margin: 0 auto; 
 }
 .hero-button {
+    display: block;
+    min-width: 169px;
+    border-radius: 4px; 
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-        background-color: #4d5ae5;
-        cursor: pointer;
-        border: none;
-        padding: 16px 32px;
-        margin-top: 24px;
-    }
-
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+     margin: 24px auto 0;
+}
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
 }
-
 .features-section {
     background-color: #f4f4fd;
 }
@@ -173,7 +177,10 @@ address {
 .features-list {
     display: flex;
     gap: 24px;
-  }
+}
+.features-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
 .features-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -182,7 +189,6 @@ address {
     color: #2e2f42;
     margin-bottom: 8px;
 }
-
 .features-text {
     font-weight: 400;
     font-size: 16px;
@@ -190,7 +196,6 @@ address {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 .team-section {
     background-color: #f4f4fd;
 }
@@ -208,12 +213,15 @@ address {
     display: flex;
     gap: 24px;
     justify-content: center;
-  }
-  
+}
 .team-card {
     background-color: #FFFFFF;
-    padding-bottom: 32px;
+    border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
 
+}
+.card-content {
+    padding: 32px 0;
 }
 .team-name {
     font-weight: 500;
@@ -233,7 +241,6 @@ font-weight: 400;
     text-align: center;
     color: #434455;
 }
-
 .portfolio-section-title {
     font-weight: 500;
     font-size: 36px;
@@ -250,10 +257,14 @@ font-weight: 400;
     gap: 24px;
     row-gap: 48px;
     justify-content: center;
-  }
-  .portfolio-card {
+}
+.portfolio-card {
     background-color: #ffffff;
-    border-bottom: 1px solid #e7e9fc;
+}
+.portfolio-content {
+    padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-title {
     font-weight: 500;
@@ -272,12 +283,21 @@ font-weight: 400;
         color: #434455;
         margin: 0 16px 32px;
 }
-
-
 .page-footer {
     background-color: #2e2f42;
     padding: 100px 0;
 }
+.footer-logo {
+    display: inline-block; 
+    margin-bottom: 16px;  
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+  }
 .footer-text {
     font-weight: 400;
 font-size: 16px;
