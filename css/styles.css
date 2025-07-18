@@ -73,7 +73,7 @@ address {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
+    padding: 0 15px;
   }
 .header-nav {
     display: flex;
