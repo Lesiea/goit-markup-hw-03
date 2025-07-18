@@ -44,10 +44,8 @@ address {
 .container {
     width: 100%;
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 .visually-hidden {
     position: absolute;
